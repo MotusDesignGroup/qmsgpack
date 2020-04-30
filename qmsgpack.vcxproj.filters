@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Source Files\stream">
+      <UniqueIdentifier>{4c61c0aa-7ad4-40cc-90f4-a153d55d8307}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\private">
+      <UniqueIdentifier>{bc44f193-8ff3-4fc3-afa8-22a1a864ffee}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\msgpack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\msgpackcommon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\msgpackstream.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\geometry.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\location.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stream\time.cpp">
+      <Filter>Source Files\private</Filter>
+    </ClCompile>
+    <ClCompile Include="src\private\pack_p.cpp">
+      <Filter>Source Files\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="src\private\qt_types_p.cpp">
+      <Filter>Source Files\stream</Filter>
+    </ClCompile>
+    <ClCompile Include="src\private\unpack_p.cpp">
+      <Filter>Source Files\stream</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\stream\geometry.h">
+      <Filter>Source Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stream\location.h">
+      <Filter>Source Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stream\time.h">
+      <Filter>Source Files\private</Filter>
+    </ClInclude>
+    <ClInclude Include="src\private\pack_p.h">
+      <Filter>Source Files\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="src\private\qt_types_p.h">
+      <Filter>Source Files\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="src\private\unpack_p.h">
+      <Filter>Source Files\stream</Filter>
+    </ClInclude>
+    <ClInclude Include="src\msgpackstream.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\msgpackcommon.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\msgpack_export.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\msgpack.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\endianhelper.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
