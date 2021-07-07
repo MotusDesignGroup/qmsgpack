@@ -27,4 +27,8 @@
     <QTDIR>C:\Qt\5.14.2\msvc2017</QTDIR>
     <LocalDebuggerEnvironment>PATH=$(QTDIR)\bin%3b$(PATH)</LocalDebuggerEnvironment>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release Beta|Win32'">
+    <QTDIR>C:\Qt\5.14.2\msvc2017</QTDIR>
+    <LocalDebuggerEnvironment>PATH=$(QTDIR)\bin%3b$(PATH)</LocalDebuggerEnvironment>
+  </PropertyGroup>
 </Project>
